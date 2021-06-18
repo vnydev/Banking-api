@@ -50,6 +50,9 @@ $ npm run start:prod
 ```bash
 # local development
 http://localhost:3000/
+
+Please import Banking-api.postman_collection.json file in postman. after import you can perform desire action.
+# File Path = banking-api/Banking-api.postman_collection.json
 ```
 
 ## Test

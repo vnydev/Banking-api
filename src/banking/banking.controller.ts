@@ -148,7 +148,7 @@ export class BankingController {
         @Param('accountNumber') accountNumber: string,
     ): Promise<ReponseType> {
         try {
-            const result = await this.bankingService.getOne({ accountNumber: parseInt(accountNumber) }, '');
+            const result = await this.bankingService.getOne({ accountNumber: parseInt(accountNumber) }, 'balance');
             return {
                 status: HttpStatus.OK,
                 data: result,
